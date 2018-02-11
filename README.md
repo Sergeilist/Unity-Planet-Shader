@@ -3,7 +3,7 @@ Here is a shader that creates a planet with an atmosphere for Unity.
 
 Planet.shader - Independent shader for the planet, uses two textures for the earth with normals and a mask for mixing them. One texture for clouds with a normal and a mixing mask. And the parameters of the atmosphere and its color.
 
-Post Effect - Here the atmosphere is drawn after processing the frame in the post effect:
+Post Effect - Here the atmosphere is drawn after processing the frame in the post effect: /n
 PlanetOnly.shader - Draws the surface of the planet.
 PlanetAtmosphere.shader - vertex shader draws the atmosphere (only directional light).
 PlanetAtmosphereS.shader - surface shader for the atmosphere of the planet (Simple Specular).
